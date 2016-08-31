@@ -1,0 +1,22 @@
+{
+    "name": "farhatabbas/laravel-faye",
+    "description": "Laravel package to easily interact with Faye server.",
+    "license": "MIT",
+    "keywords": ["laravel","faye"],
+    "authors": [
+        {
+            "name": "farhatabbas",
+            "email": "fa@inquiron.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.25",
+        "laravel/framework": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Farhatabbas\\Faye\\": "src/"
+        }
+    }
+}
